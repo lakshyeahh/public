@@ -1,0 +1,23 @@
+.imge{
+    height: 120vh;
+
+    transform: scale(0.5) translate(-650px, -350px);
+    
+    
+    }
+    
+.head{
+      transform: translateY(-250px);
+      font-size: 60px;
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 5px rgb(108, 68, 33);
+    }
+    
+    .para{
+      text-align: left;
+      font-family: karla;
+      padding: 30px;
+      font-size: 20px;
+      background-color: white;
+      margin-top: -270px;
+    }
