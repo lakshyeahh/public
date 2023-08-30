@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #0c111b;
+  position: relative;
+  font-family: roboto, sans-serif;
+  z-index: 11;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  padding: 0.4%;
+  background: #0c111b;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 70px;
+  margin-left: 20px;
+}
+
+.navlinks {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+}
+
+.navitmes a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  opacity: 0.9;
+}
+
+.right-container {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+}
+
+.searchbox {
+  margin-right: 20px;
+  border: none;
+  border-bottom: 1px #aaa solid;
+  outline: none;
+  background: transparent;
+  height: 30px;
+  color: white;
+  font-family: roboto, sans-serif;
+  font-size: large;
+  width: 250px;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+
+.searchbox:focus {
+  width: 300px;
+  border-color: #1f80e0;
+}
+
+.subs {
+  background-color: #1f80e0;
+  width: 120px;
+  height: 30px;
+  border: none;
+  font-size: small;
+  color: white;
+  font-family: roboto, sans-serif;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+
+.login {
+  text-decoration: none;
+  color: white;
+  font-family: roboto, sans-serif;
+  margin-right: 20px;
+}
+
+.carouselcont {
+  position: relative;
+  height: 400px;
+  padding: 20px 0;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+
+.carousel {
+  display: flex;
+  width: 92%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.slider {
+  flex: 0 0 auto;
+  margin-right: 30px;
+  position: relative;
+  background: rgba(0, 0, 0, 0, 5);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.slideback {
+  display: block;
+  min-height: 100%;
+  width: 70%;
+  object-fit: cover;
+  margin-left: auto;
+}
+
+.slidecont {
+  position: absolute;
+  width: 500px;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to right, #030b17 80%, #0c111b00);
+  color: #fff;
+  font-family: roboto, sans-serif;
+}
+
+.movietitle {
+  padding-left: 50px;
+  margin-top: 80px;
+  text-transform: capitalize;
+}
+
+.movdes {
+  padding-left: 50px;
+  margin-top: 30px;
+  width: 400px;
+}
+
+.nav2 {
+  position: relative;
+  width: 92%;
+  margin: auto;
+  height: 10vw;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  background: #030b17;
+}
+
+.videocard {
+  position: realtive;
+  min-width: calc(100% / 5 - 10px);
+  width: calc(100% / 5 - 10px);
+  background: blue;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.navvideo,
+.nav2items {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videocard:hover .nav2items {
+  display: none;
+}
