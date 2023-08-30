@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+.text1{
+    height: 30vh;
+    background-color: rgb(250, 243, 234);
+    font-size: 40px;
+    text-align: left;
+    padding: 20px;
+    font-weight: 400;
+    }
+    
+    .para{
+    text-align: left;
+    padding: 20px
+    }
+
+
+    .doctorlist{
+        display: inline-block;
+    }
+
+    .docpic{
+        height: 150px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .name{
+        font-weight: 600;
+        font-size: 15px;
+        font-family: "Montserrat";
+        text-align: left;
+        padding: 5px;
+    }
+    .patients{
+        font-weight: 100;
+    }
+
+    .doctorcard{
+        background-color: rgb(255, 255, 255);
+        width: 200px;
+        max-height: 400px;
+        min-height: 200px;
+       
+        display: inline-block;
+        margin: 20px;
+        margin-top: 0px;
+        border-radius: 10px;
+      
+    }
+
+    .doctorcard:hover{
+        transform: scale(1.02);
+        transition: 0.5s;
+       
+
+    }
+
+
+
+    .docpic{
+        overflow: hidden;
+        height: 150px;
+        
+    }
+
+.docpic:hover{
+    transform: scale(0.98);
+    transition: 0.5s;
+}
+
+    .spec{
+        margin-right: auto;
+    }
+   .star{
+    height: 10px;
+   }
+
+    .infod{
+        font-family: karla;
+        text-align: left;
+        margin-top: -10px;
+        padding: 5px;
+        display: flex;
+        color: rgb(83, 77, 77);
+    }
+
+    .getinfo{
+        font-size: 13px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgba(235, 235, 235, 0.393);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3x rgb(29, 116, 29);
+        margin: 20px;
+      
+    }
+
+    .getinfo:hover{
+        border-bottom: 3px solid rgb(255, 0, 102);
+        color:rgb(0, 191, 255);
+        transition: 0.1s;
+    }
+
+    .linkd:hover{
+color: black;
+    }
+
+ .listi{
+    justify-content: center;
+    transform: translate(90vh);
+ }
+.patients{
+    font-family: karla;
+  font-size: 15px;
+    text-align: left;
+    padding: 5px;
+    margin-top: 1px;
+    color: rgb(255, 0, 102);
+}
+ .nameie{
+    font-size: 20px;
+ }
